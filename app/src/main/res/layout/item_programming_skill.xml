@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <ImageView
         android:id="@+id/iv_language_logo"
@@ -61,6 +61,7 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tx_label_seniority_level"
+        android:paddingBottom="8dp"
         android:text="@string/label_years_experience" />
 
     <TextView
@@ -73,6 +74,7 @@
         app:layout_constraintEnd_toStartOf="@+id/iv_language_logo"
         app:layout_constraintStart_toEndOf="@id/tx_label_years_experience"
         app:layout_constraintTop_toBottomOf="@id/tx_seniority_level"
+        android:paddingBottom="8dp"
         tools:text="8" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
