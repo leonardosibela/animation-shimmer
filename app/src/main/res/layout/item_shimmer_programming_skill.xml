@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:paddingBottom="8dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_language_logo"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/shimmer_item_brackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tx_language_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="64dp"
+        android:background="@color/shimmer_item_brackground"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/iv_language_logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tx_label_seniority_level"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/shimmer_item_brackground"
+        android:text="@string/label_seniority"
+        android:textColor="@color/shimmer_item_brackground"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tx_language_name" />
+
+    <TextView
+        android:id="@+id/tx_seniority_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/shimmer_item_brackground"
+        android:text="@string/seniority_level"
+        android:textColor="@color/shimmer_item_brackground"
+        app:layout_constraintStart_toEndOf="@id/tx_label_seniority_level"
+        app:layout_constraintTop_toBottomOf="@id/tx_language_name" />
+
+    <TextView
+        android:id="@+id/tx_label_years_experience"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/shimmer_item_brackground"
+        android:text="@string/label_years_experience"
+        android:textColor="@color/shimmer_item_brackground"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tx_label_seniority_level" />
+
+    <TextView
+        android:id="@+id/tx_years_experience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/shimmer_item_brackground"
+        android:text="88"
+        android:textColor="@color/shimmer_item_brackground"
+        app:layout_constraintStart_toEndOf="@id/tx_label_years_experience"
+        app:layout_constraintTop_toBottomOf="@id/tx_seniority_level" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
