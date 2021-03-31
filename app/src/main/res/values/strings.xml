@@ -3,4 +3,5 @@
     <string name="label_seniority">Seniority:</string>
     <string name="label_years_experience">Years of experience:</string>
     <string name="seniority_level">Sênior</string>
+    <string name="title_start_animation">Click here to start the animation</string>
 </resources>
