@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Facebook Shimmer</string>
+    <string name="label_seniority">Seniority:</string>
+    <string name="label_years_experience">Years of experience:</string>
 </resources>
